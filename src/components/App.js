@@ -1,11 +1,12 @@
 import Layout from './Layout';
-import Home from './pages/Home';
+import Signup from './pages/Signup';
 import './Styles/App.css';
 function App() {
   return (
     <div className="App">
       <Layout >
-        <Home />
+        {/* <Home /> */}
+        <Signup />
       </Layout>
 
     </div>
